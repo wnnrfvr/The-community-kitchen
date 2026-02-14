@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "title": "Classic Spaghetti Carbonara",
+        "contributor": "Winner Favor",
+        "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=800&q=80",
+        "description": "A traditional Roman pasta dish with eggs, cheese, pancetta, and black pepper.",
+        "ingredients": [
+            "200g Spaghetti",
+            "100g Pancetta",
+            "2 Large Eggs",
+            "50g Pecorino Romano",
+            "Black Pepper"
+        ],
+        "instructions": [
+            "Boil water for pasta.",
+            "Fry pancetta until crispy.",
+            "Whisk eggs and cheese.",
+            "Cook pasta al dente.",
+            "Mix everything off heat to create sauce."
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Avocado Toast",
+        "contributor": "Winner Favor.",
+        "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=800&q=80",
+        "description": "Simple, healthy, and delicious breakfast staple.",
+        "ingredients": [
+            "2 slices Sourdough Bread",
+            "1 Ripe Avocado",
+            "Salt & Pepper",
+            "Red Chili Flakes",
+            "Lemon Juice"
+        ],
+        "instructions": [
+            "Toast the bread.",
+            "Mash avocado with lemon, salt, and pepper.",
+            "Spread on toast.",
+            "Sprinkle with chili flakes."
+        ]
+    }
+]
