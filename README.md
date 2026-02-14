@@ -23,4 +23,4 @@ We are looking for:
 * **Testers:** To find bugs and open Issues.
 
 ---
-*Maintained by [Your Name]*
+*Maintained by Decagames*
