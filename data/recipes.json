@@ -989,5 +989,28 @@
             "Shape into nests on tray; add candies.",
             "Chill until set."
         ]
+    },
+    {
+        "id": 46,
+        "title": "Traditional Rice Cake (Waina)",
+        "contributor": "Umar Khalil Ibrahim",
+        "image": "https://sl.bing.net/dCZ4sv5eHHU",
+        "description": "A traditional Northern Nigerian dish by by Hausa people. It is fluffy, slightly tangy, round, or oval-shaped snack or meal often served with soup.",
+        "ingredients": [
+            "Rice",
+            "Sugar",
+            "Yeast",
+            "Salt",
+            "Water",
+            "Oil or Butter"
+        ],
+        "instructions": [
+            "Soak the rice",
+            "Grind into a smooth paste",
+            "Add sugar, yeast, and water",
+            "Leave to ferment",
+            "Cook in a special waina pan over heat.",
+            "And then you serve with soup with kuli-kuli"
+       ]
     }
 ] 
