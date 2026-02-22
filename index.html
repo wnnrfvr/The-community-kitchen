@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Community Cookbook - A collection of delicious recipes shared by the community.">
@@ -14,63 +13,66 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="src/style.css">
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <nav>
-                <div class="logo">🍳 Community Cookbook</div>
-                <button id="add-recipe-btn" class="btn-primary">
-                    + Add Recipe
-                </button>
-            </nav>
+      <header>
+        <nav>
+          <div class="logo">🍳 Community Cookbook</div>
+          <button id="add-recipe-btn" class="btn-primary">+ Add Recipe</button>
+        </nav>
 
-            <section class="hero">
-                <div class="hero-content">
+        <section class="hero">
+          <div class="hero-content">
                     <h1>Share the love,<br>one recipe at a time.</h1>
-                    <p>Discover and share authentic recipes from kitchens around the world.</p>
+                    <p>Discover and share authentic recipes from kitchens around the world.
+                        Currently <span class="recipes-counter">50</span> recipes available.
+                    </p>
 
-                    <div class="search-container">
+            <div class="search-container">
                         <input type="text" id="search-input" placeholder="What are you craving today?">
                         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                             stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                        </svg>
-                    </div>
-
-                    <div class="filters">
-                        <button class="filter-chip active">All</button>
-                        <button class="filter-chip">Breakfast</button>
-                        <button class="filter-chip">Italian</button>
-                        <button class="filter-chip">Healthy</button>
-                        <button class="filter-chip">Dessert</button>
-                    </div>
-                </div>
-            </section>
-        </header>
-
-        <main>
-            <div id="recipe-container">
-                <!-- Recipes will be loaded here dynamically -->
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            
             </div>
-        </main>
+
+            <div class="filters">
+              <button class="filter-chip active">All</button>
+              <button class="filter-chip">Breakfast</button>
+              <button class="filter-chip">Italian</button>
+              <button class="filter-chip">Healthy</button>
+              <button class="filter-chip">Dessert</button>
+              <button class="filter-chip">Chinese</button>
+              <button class="filter-chip">Arabian</button>
+              <button class="filter-chip">Indian</button>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <div id="recipe-container">
+          <!-- Recipes will be loaded here dynamically -->
+        </div>
+      </main>
     </div>
 
     <!-- Recipe Modal -->
     <div id="recipe-modal" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <div id="modal-body">
-                <!-- Modal content injected by JS -->
-            </div>
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="modal-body">
+          <!-- Modal content injected by JS -->
         </div>
+      </div>
     </div>
 
     <!-- Scripts -->
     <script src="src/script.js"></script>
-</body>
-
+  </body>
 </html>
