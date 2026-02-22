@@ -150,6 +150,19 @@ nav {
     color: var(--text-secondary);
     pointer-events: none;
 }
+/* Recipe Counter */
+.recipe-counter {
+    text-align: center;
+    margin: 1rem 0 2rem;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+#recipe-count {
+    color: var(--primary-color);
+    font-weight: 700;
+}
 
 /* Filters */
 .filters {
