@@ -989,5 +989,225 @@
             "Shape into nests on tray; add candies.",
             "Chill until set."
         ]
+    },
+
+    {
+        "_comment": "Chinese recipes start here – contributed as part of the cuisine filter feature",
+        "id": 46,
+        "title": "Kung Pao Chicken",
+        "contributor": "NicelyChop Kitchen",
+        "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80",
+        "description": "A spicy, stir-fried classic from Sichuan province with tender chicken, crunchy peanuts, and dried chillies in a glossy sweet-sour sauce.",
+        "ingredients": [
+            "500g boneless chicken thighs, cubed",
+            "1/2 cup roasted peanuts",
+            "8-10 dried red chillies",
+            "3 cloves garlic, minced",
+            "1 tsp fresh ginger, grated",
+            "3 spring onions, sliced",
+            "2 tbsp soy sauce",
+            "1 tbsp rice vinegar",
+            "1 tbsp Shaoxing rice wine",
+            "1 tsp sesame oil",
+            "1 tsp sugar",
+            "1 tsp cornstarch",
+            "2 tbsp vegetable oil",
+            "1 tsp Sichuan peppercorns (optional)"
+        ],
+        "instructions": [
+            "Marinate chicken in 1 tbsp soy sauce, cornstarch, and rice wine for 15 minutes.",
+            "Mix sauce: remaining soy sauce, rice vinegar, sugar, sesame oil, and 2 tbsp water.",
+            "Heat oil in wok on high heat; fry dried chillies and Sichuan peppercorns for 30 seconds.",
+            "Add chicken and stir-fry until golden and cooked through (5-6 minutes).",
+            "Add garlic and ginger; stir-fry 1 minute.",
+            "Pour in sauce, toss to coat. Add peanuts and spring onions.",
+            "Cook 1 minute until sauce thickens. Serve immediately with steamed rice."
+        ]
+    },
+    {
+        "id": 47,
+        "title": "Char Siu Bao (BBQ Pork Buns)",
+        "contributor": "NicelyChop Kitchen",
+        "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80",
+        "description": "Fluffy steamed buns filled with sweet and savoury barbecue pork – a beloved dim sum staple enjoyed across China and the world.",
+        "ingredients": [
+            "For dough: 3 cups all-purpose flour, 2 tsp instant yeast, 3 tbsp sugar, 1 cup warm milk, 2 tbsp vegetable oil",
+            "For filling: 300g roast pork (char siu), diced",
+            "2 tbsp oyster sauce",
+            "1 tbsp hoisin sauce",
+            "1 tsp soy sauce",
+            "1 tsp sesame oil",
+            "1 tbsp cornstarch mixed with 3 tbsp water",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Make dough: dissolve yeast and sugar in warm milk; mix into flour with oil, knead 10 mins until smooth. Rest 1 hour.",
+            "Make filling: mix pork with sauces; heat in pan, add cornstarch slurry, stir until thick. Cool completely.",
+            "Divide dough into 12 portions, flatten each into a circle.",
+            "Place a spoonful of filling in centre, gather edges and pinch to seal. Place on parchment squares.",
+            "Rest 20 mins, then steam over boiling water for 15 minutes.",
+            "Serve warm."
+        ]
+    },   
+ 
+    {
+        "id": 48,
+        "title": "Kabsa (Saudi Spiced Rice)",
+        "contributor": "NicelyChop Kitchen",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80",
+        "description": "Saudi Arabia's national dish – fragrant long-grain rice cooked in a spiced meat broth with whole spices, tomatoes, and topped with nuts and raisins.",
+        "ingredients": [
+            "1 whole chicken, cut into pieces",
+            "3 cups basmati rice, washed",
+            "2 large onions, diced",
+            "4 tomatoes, diced",
+            "4 tbsp vegetable oil",
+            "Kabsa spice mix: 1 tsp each cinnamon, cardamom, cumin, coriander, black pepper, cloves",
+            "2 bay leaves",
+            "3 cloves garlic",
+            "Salt to taste",
+            "Fried almonds, raisins, and pine nuts for garnish"
+        ],
+        "instructions": [
+            "Brown chicken pieces in oil; remove and set aside.",
+            "Sauté onions until golden, add garlic and spices, cook 2 minutes.",
+            "Add tomatoes; cook down 10 minutes. Return chicken to pot with water to cover; simmer 40 minutes.",
+            "Remove chicken. Measure 5 cups of broth; bring to boil, add rice, season with salt.",
+            "Cover and cook on low for 20 minutes until rice is fluffy.",
+            "Plate rice, top with chicken pieces, garnish with fried almonds, raisins, and pine nuts."
+        ]
+    },
+    {
+        "id": 49,
+        "title": "Falafel",
+        "contributor": "NicelyChop Kitchen",
+        "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=800&q=80",
+        "description": "Crispy on the outside, fluffy on the inside – these herb-packed chickpea fritters are a Middle Eastern street food icon.",
+        "ingredients": [
+            "400g dried chickpeas, soaked overnight (do NOT use canned)",
+            "1 large onion, roughly chopped",
+            "4 cloves garlic",
+            "1 cup fresh parsley",
+            "1/2 cup fresh coriander",
+            "1 tsp cumin",
+            "1 tsp coriander powder",
+            "1/2 tsp baking soda",
+            "Salt and black pepper to taste",
+            "Vegetable oil for deep frying"
+        ],
+        "instructions": [
+            "Drain soaked chickpeas. Do NOT cook them – use raw.",
+            "Blend chickpeas, onion, garlic, herbs, and spices until a coarse, gritty paste forms. Do not over-process.",
+            "Mix in baking soda and salt. Refrigerate 1 hour.",
+            "Form into small balls or patties.",
+            "Deep fry at 180°C for 3-4 minutes until deep golden brown and crispy.",
+            "Drain and serve in pita with hummus, salad, and tahini."
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Baklava",
+        "contributor": "NicelyChop Kitchen",
+        "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=800&q=80",
+        "description": "Layers of paper-thin filo pastry filled with chopped pistachios and walnuts, baked golden and drenched in fragrant rose-water honey syrup.",
+        "ingredients": [
+            "500g filo pastry sheets",
+            "200g unsalted butter, melted",
+            "2 cups mixed pistachios and walnuts, finely chopped",
+            "1 tsp ground cinnamon",
+            "For syrup: 1 cup sugar, 1/2 cup water, 1/2 cup honey, 1 tbsp lemon juice, 1 tsp rose water"
+        ],
+        "instructions": [
+            "Preheat oven to 180°C. Butter a 30x20cm baking dish.",
+            "Layer 10 sheets of filo, brushing each with butter.",
+            "Spread half the nut mixture. Add 5 more sheets (buttered), then remaining nuts. Top with 10 more buttered sheets.",
+            "Cut into diamond or square shapes before baking.",
+            "Bake 45-50 minutes until deep golden brown.",
+            "Make syrup: boil sugar, water, honey, and lemon juice for 10 mins. Add rose water off heat.",
+            "Pour hot syrup over hot baklava immediately. Rest at least 2 hours before serving."
+        ]
+    },
+
+    {
+        "_comment": "Indian recipes start here – contributed as part of the cuisine filter feature",
+        "id": 51,
+        "title": "Butter Chicken (Murgh Makhani)",
+        "contributor": "NicelyChop Kitchen",
+        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80",
+        "description": "Tender chicken in a velvety, mildly spiced tomato and cream sauce – one of India's most beloved and globally iconic dishes.",
+        "ingredients": [
+            "700g boneless chicken, cubed",
+            "For marinade: 1 cup yoghurt, 1 tbsp ginger-garlic paste, 1 tsp each chilli powder, cumin, garam masala, salt",
+            "For sauce: 4 large tomatoes, blended; 1 large onion, diced",
+            "3 tbsp butter",
+            "1 tbsp ginger-garlic paste",
+            "1 tsp each: cumin, coriander, chilli powder, garam masala",
+            "1/2 cup heavy cream",
+            "Salt and sugar to taste",
+            "Fresh coriander to garnish"
+        ],
+        "instructions": [
+            "Marinate chicken for at least 1 hour. Grill or pan-fry until slightly charred. Set aside.",
+            "Melt butter in a heavy pan; sauté onion until golden.",
+            "Add ginger-garlic paste, cook 2 minutes. Add spices, fry 1 minute.",
+            "Pour in blended tomatoes; simmer 20 minutes until sauce thickens and oil separates.",
+            "Add grilled chicken; simmer 10 minutes.",
+            "Stir in cream, adjust seasoning. Garnish with coriander.",
+            "Serve with naan or basmati rice."
+        ]
+    },
+    {
+        "id": 52,
+        "title": "Chicken Biryani",
+        "contributor": "NicelyChop Kitchen",
+        "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80",
+        "description": "Fragrant basmati rice layered with spiced chicken, caramelised onions, and saffron – a royal one-pot feast with deep, complex flavours.",
+        "ingredients": [
+            "1kg bone-in chicken pieces",
+            "3 cups basmati rice, soaked 30 minutes",
+            "2 cups plain yoghurt",
+            "3 large onions, thinly sliced and fried golden",
+            "4 tbsp ghee or butter",
+            "Whole spices: 4 cardamom, 4 cloves, 2 bay leaves, 1 cinnamon stick",
+            "Biryani masala: 1 tbsp each ginger-garlic paste, red chilli powder, coriander powder, garam masala",
+            "A pinch of saffron soaked in 4 tbsp warm milk",
+            "Fresh mint and coriander leaves",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Marinate chicken in yoghurt, biryani spices, salt, and half the fried onions for 2 hours.",
+            "Half-cook soaked rice with whole spices and salt until 70% done. Drain.",
+            "In a heavy pot, layer marinated chicken, then half the rice, mint, and coriander.",
+            "Add remaining rice, drizzle saffron milk and ghee over top. Add remaining fried onions.",
+            "Seal pot with foil and lid. Cook on low heat (dum) for 40 minutes.",
+            "Gently fluff layers and serve with raita."
+        ]
+    },
+    {
+        "id": 53,
+        "title": "Palak Paneer",
+        "contributor": "NicelyChop Kitchen",
+        "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80",
+        "description": "Cubes of fresh cottage cheese in a vibrant, velvety spiced spinach sauce – a beloved North Indian vegetarian dish, rich and satisfying.",
+        "ingredients": [
+            "500g fresh spinach, blanched and blended",
+            "250g paneer, cubed and lightly pan-fried",
+            "1 large onion, diced",
+            "2 tomatoes, diced",
+            "1 tbsp ginger-garlic paste",
+            "1/2 cup cream or yoghurt",
+            "2 tbsp ghee or oil",
+            "1 tsp each: cumin seeds, coriander powder, garam masala, red chilli powder",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Blanch spinach in boiling water 2 minutes, transfer to ice water to preserve colour. Blend smooth.",
+            "Heat ghee; sauté cumin seeds until they splutter. Add onion; cook until golden.",
+            "Add ginger-garlic paste, cook 2 minutes. Add tomatoes and dry spices; cook until oil separates.",
+            "Pour in blended spinach; simmer 10 minutes.",
+            "Stir in cream; add fried paneer cubes. Simmer 5 minutes.",
+            "Finish with garam masala. Serve with naan or rice."
+        ]
     }
-] 
+
+]

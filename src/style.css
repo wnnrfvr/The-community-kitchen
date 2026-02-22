@@ -116,6 +116,10 @@ nav {
     max-width: 600px;
     margin: 0 auto 2.5rem;
 }
+.hero-content .recipes-counter {
+    color: var(--primary-color);
+    font-weight: 800;
+}
 
 /* Search Bar */
 .search-container {
