@@ -552,3 +552,29 @@ transition: transform 0.2s ease;
 .favorite-btn:hover {
 transform: scale(1.2);
 }
+
+/* ADD RECIPE STYLING */
+.form-group {
+margin-bottom: 1.2rem;
+display: flex;
+flex-direction: column;
+gap: 6px;
+}
+
+.form-group label {
+font-weight: 600;
+color: var(--text-secondary);
+}
+
+.form-group input,
+.form-group textarea {
+padding: 0.7rem;
+border-radius: 8px;
+border: 1px solid #ddd;
+font-family: var(--font-family);
+}
+
+.form-group textarea {
+min-height: 80px;
+resize: vertical;
+}
