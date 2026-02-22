@@ -1,76 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Community Cookbook - A collection of delicious recipes shared by the community.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Community Cookbook - A collection of delicious recipes shared by the community."
+    />
     <title>Community Cookbook</title>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="src/style.css">
-</head>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header>
-            <nav>
-                <div class="logo">🍳 Community Cookbook</div>
-                <button id="add-recipe-btn" class="btn-primary">
-                    + Add Recipe
-                </button>
-            </nav>
+      <header>
+        <nav>
+          <div class="logo">🍳 Community Cookbook</div>
 
-            <section class="hero">
-                <div class="hero-content">
-                    <h1>Share the love,<br>one recipe at a time.</h1>
-                    <p>Discover and share authentic recipes from kitchens around the world.</p>
+          <!-- DARK MODE ADDITION START -->
+          <div class="nav-actions">
+            <button
+              id="theme-toggle"
+              class="theme-toggle"
+              aria-label="Toggle dark mode"
+            >
+              🌙
+            </button>
+            <!-- DARK MODE ADDITION END -->
+            <button id="add-recipe-btn" class="btn-primary">
+              + Add Recipe
+            </button>
+          </div>
+        </nav>
 
-                    <div class="search-container">
-                        <input type="text" id="search-input" placeholder="What are you craving today?">
-                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                        </svg>
-                    </div>
+        <section class="hero">
+          <div class="hero-content">
+            <h1>Share the love,<br />one recipe at a time.</h1>
+            <p>
+              Discover and share authentic recipes from kitchens around the
+              world.
+            </p>
 
-                    <div class="filters">
-                        <button class="filter-chip active">All</button>
-                        <button class="filter-chip">Breakfast</button>
-                        <button class="filter-chip">Italian</button>
-                        <button class="filter-chip">Healthy</button>
-                        <button class="filter-chip">Dessert</button>
-                    </div>
-                </div>
-            </section>
-        </header>
-
-        <main>
-            <div id="recipe-container">
-                <!-- Recipes will be loaded here dynamically -->
+            <div class="search-container">
+              <input
+                type="text"
+                id="search-input"
+                placeholder="What are you craving today?"
+              />
+              <svg
+                class="search-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
             </div>
-        </main>
+
+            <div class="filters">
+              <button class="filter-chip active">All</button>
+              <button class="filter-chip">Breakfast</button>
+              <button class="filter-chip">Italian</button>
+              <button class="filter-chip">Healthy</button>
+              <button class="filter-chip">Dessert</button>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <main>
+        <div id="recipe-container">
+          <!-- Recipes will be loaded here dynamically -->
+        </div>
+      </main>
     </div>
 
     <!-- Recipe Modal -->
     <div id="recipe-modal" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <div id="modal-body">
-                <!-- Modal content injected by JS -->
-            </div>
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="modal-body">
+          <!-- Modal content injected by JS -->
         </div>
+      </div>
     </div>
 
     <!-- Scripts -->
     <script src="src/script.js"></script>
-</body>
-
+  </body>
 </html>

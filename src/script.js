@@ -8,6 +8,41 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeModal = document.querySelector('.close-modal');
     const addRecipeBtn = document.getElementById('add-recipe-btn');
 
+    // =============================
+    // DARK MODE ADDITION START
+    // =============================
+
+    const themeToggle = document.getElementById('theme-toggle');
+
+    // Load saved theme
+    const savedTheme = localStorage.getItem('theme');
+
+    if (savedTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+        if (themeToggle) themeToggle.textContent = '☀️';
+    }
+
+    // Toggle theme
+    if (themeToggle) {
+        themeToggle.addEventListener('click', () => {
+
+            document.body.classList.toggle('dark-mode');
+
+            if (document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                themeToggle.textContent = '☀️';
+            } else {
+                localStorage.setItem('theme', 'light');
+                themeToggle.textContent = '🌙';
+            }
+
+        });
+    }
+
+    // =============================
+    // DARK MODE ADDITION END
+    // =============================
+
     let allRecipes = []; // Store fetched recipes for filtering
 
     // Fetch and display recipes
