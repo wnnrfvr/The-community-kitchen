@@ -111,6 +111,12 @@ document.addEventListener('DOMContentLoaded', () => {
             closeModalFunc();
         }
     });
+// Close modal with ESC key for accessibility
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.style.display === 'block') {
+        closeModalFunc();
+    }
+});
 
     // Search Functionality
     if (searchInput) {
