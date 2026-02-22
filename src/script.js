@@ -43,11 +43,16 @@ document.addEventListener('DOMContentLoaded', () => {
             // Stagger animation delay via inline style for dynamic lists
             card.style.animationDelay = `${index * 0.1}s`;
 
+
             card.innerHTML = `
                 <div class="card-image-wrapper">
-                    <img src="${recipe.image || 'https://via.placeholder.com/400x300?text=No+Image'}" alt="${recipe.title}" class="recipe-image" loading="lazy">
+                    <img src="${recipe.image || 'https://via.placeholder.com/400x300?text=No+Image'}" alt="${recipe.title}" class="recipe-image">
+                    
+                    <span class="favorite-btn" data-id="${recipe.id}"><i class="fa-regular fa-heart" style="color: red;"></i></span>
+
                     <span class="contributor-badge">${recipe.contributor}</span>
                 </div>
+
                 <div class="recipe-content">
                     <h3 class="recipe-title">${recipe.title}</h3>
                     <p class="recipe-description">${recipe.description}</p>
@@ -63,6 +68,20 @@ document.addEventListener('DOMContentLoaded', () => {
             card.addEventListener('click', () => openModal(recipe));
 
             recipeContainer.appendChild(card);
+
+            const favBtn = card.querySelector('.favorite-btn');
+
+            const favorites = getFavorites();
+
+            if (favorites.includes(recipe.id)) {
+                favBtn.innerHTML = `<i class="fa-solid fa-heart"></i>`;
+                favBtn.style.color = "red";
+            }
+
+            favBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                toggleFavorite(recipe.id, favBtn);
+            });
         });
     }
 
@@ -161,3 +180,28 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial load
     loadRecipes();
 });
+
+
+function getFavorites() {
+    return JSON.parse(localStorage.getItem('favorites')) || [];
+}
+
+function saveFavorites(favorites) {
+    localStorage.setItem('favorites', JSON.stringify(favorites));
+}
+
+function toggleFavorite(id, button) {
+    let favorites = getFavorites();
+
+    if (favorites.includes(id)) {
+        favorites = favorites.filter(fav => fav !== id);
+        button.innerHTML = `<i class="fa-regular fa-heart"></i>`;
+        button.style.color = "red";
+    } else {
+        favorites.push(id);
+        button.innerHTML = `<i class="fa-solid fa-heart"></i>`;
+        button.style.color = "red";
+    }
+
+    saveFavorites(favorites);
+}
