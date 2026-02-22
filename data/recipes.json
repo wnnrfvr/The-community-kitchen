@@ -39,5 +39,568 @@
             "Spread on toast.",
             "Sprinkle with chili flakes."
         ]
+    },
+
+    {
+        "_comment": "Nigerian-based recipes start here – all authentic dishes from Nigeria, contributed by Salma's Nigerian Kitchen",
+        "id": 3,
+        "title": "Authentic Nigerian Jollof Rice",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=800&q=80",
+        "description": "The iconic West African one-pot rice dish cooked in a rich, spicy tomato-pepper base. Smoky, flavorful, and a staple at Nigerian parties and gatherings.",
+        "ingredients": [
+            "3 cups long-grain parboiled rice (or basmati for a premium version)",
+            "4-5 red bell peppers (tatashe)",
+            "2-3 scotch bonnet peppers (to taste)",
+            "2 large onions",
+            "4-5 tomatoes",
+            "1/2 cup vegetable oil or palm oil",
+            "3-4 tbsp tomato paste",
+            "2-3 stock cubes (Maggi/Knorr)",
+            "1 tsp thyme",
+            "1 tsp curry powder",
+            "Salt to taste",
+            "Protein of choice (chicken, beef, or fish – optional)",
+            "2 bay leaves"
+        ],
+        "instructions": [
+            "Blend peppers, tomatoes, onions, and scotch bonnet into a smooth puree.",
+            "Heat oil in a pot, fry sliced onion until translucent, then add tomato paste and fry for 5-10 minutes until it darkens.",
+            "Add the blended puree, stock cubes, thyme, curry, bay leaves, and salt. Cook on medium heat until the oil floats on top (about 15-20 mins).",
+            "Parboil rice if needed, then add to the stew. Stir gently, add water/stock to just cover the rice.",
+            "Cover and cook on low heat until rice is tender and fluffy (20-30 mins). Avoid stirring too much to prevent sogginess. Add protein midway if using.",
+            "Serve hot with fried plantains (dodo) or coleslaw."
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Egusi Soup",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1627308594171-19a116a8cf47?auto=format&fit=crop&w=800&q=80",
+        "description": "A rich, nutty melon seed soup popular across Nigeria, often thickened and paired with swallows like pounded yam or eba. Packed with protein and greens.",
+        "ingredients": [
+            "1-2 cups ground egusi (melon seeds)",
+            "1 cup palm oil",
+            "Assorted meats (beef, goat, tripe, or smoked fish – about 1-2 lbs)",
+            "2-3 cups chopped spinach or ugu/pumpkin leaves",
+            "2-3 tbsp ground crayfish",
+            "1-2 scotch bonnet peppers",
+            "2 red bell peppers",
+            "2 onions",
+            "2-3 stock cubes",
+            "Locust beans (iru, optional for extra flavor)",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Season and boil meats until tender, reserve stock.",
+            "Blend peppers and one onion, then mix ground egusi with a little water to form a thick paste.",
+            "Heat palm oil, sauté chopped onion, add blended peppers and fry for 10 minutes.",
+            "Add crayfish, locust beans, stock cubes, and meat stock. Simmer.",
+            "Scoop egusi paste into the pot in lumps (or stir in for smoother texture). Cook 10-15 mins without stirring much to form lumps.",
+            "Add chopped greens and cooked meats. Simmer 5-10 more minutes. Adjust seasoning.",
+            "Serve with pounded yam, eba, or fufu."
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Pounded Yam (Iyan)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?auto=format&fit=crop&w=800&q=80",
+        "description": "A classic swallow made from boiled yam, pounded into a smooth, stretchy dough. Perfect partner for egusi, okro, or other Nigerian soups.",
+        "ingredients": [
+            "1 medium tuber of yam (white yam, not sweet potato yam)",
+            "Water (as needed)",
+            "Salt (optional)"
+        ],
+        "instructions": [
+            "Peel yam, cut into chunks, and wash thoroughly.",
+            "Boil in salted water until very soft (15-20 mins).",
+            "Drain, then pound in a mortar and pestle (traditional) or use a food processor/stand mixer until smooth and stretchy. Add small amounts of hot water if too stiff.",
+            "Mold into a smooth ball and serve hot with soup."
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Nigerian Beef Suya",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=800&q=80",
+        "description": "Spicy grilled meat skewers coated in a peanut-based yaji spice mix – a iconic Nigerian street food snack, perfect for evenings or parties.",
+        "ingredients": [
+            "500g beef (sirloin or flank, thinly sliced)",
+            "1/4 cup ground roasted peanuts (or peanut powder)",
+            "2-3 tbsp suya spice (yaji – mix of ground peanuts, ginger, garlic, cayenne, paprika)",
+            "1 tsp ground ginger",
+            "1 tsp garlic powder",
+            "1-2 tsp cayenne pepper (adjust for heat)",
+            "1 stock cube",
+            "Salt to taste",
+            "Vegetable oil for brushing",
+            "Sliced onions, tomatoes, and cucumber for serving"
+        ],
+        "instructions": [
+            "Slice beef thinly against the grain.",
+            "Mix suya spice, ground peanuts, ginger, garlic, cayenne, stock cube, and salt.",
+            "Rub the spice mix generously over the beef slices. Marinate for at least 1 hour (or overnight).",
+            "Thread meat onto skewers.",
+            "Grill over high heat (or broil in oven) for 10-15 minutes, turning and brushing with oil until charred and cooked.",
+            "Serve hot with extra suya spice, sliced onions, tomatoes, and cucumber."
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Puff Puff",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1558327768560-6b0e3c499306?auto=format&fit=crop&w=800&q=80",
+        "description": "Crispy, fluffy deep-fried dough balls – a sweet Nigerian street snack or party finger food, often enjoyed with a cold drink.",
+        "ingredients": [
+            "3 cups all-purpose flour",
+            "1/2 cup sugar (adjust to taste)",
+            "1 tsp yeast",
+            "1/2 tsp salt",
+            "1/2 tsp nutmeg (optional)",
+            "Warm water (about 1.5-2 cups)",
+            "Vegetable oil for deep frying"
+        ],
+        "instructions": [
+            "Mix flour, sugar, salt, nutmeg, and yeast in a bowl.",
+            "Gradually add warm water and mix to form a thick, smooth batter (like pancake batter).",
+            "Cover and let rise in a warm place for 1-2 hours until doubled and bubbly.",
+            "Heat oil to medium-hot (test with a drop – it should sizzle).",
+            "Scoop batter with wet hands or spoon and drop into oil in small balls.",
+            "Fry until golden brown, turning for even cooking (about 3-5 mins). Drain on paper towels.",
+            "Optional: Roll in sugar while hot. Serve warm."
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Okra Soup (Okro Soup)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1627308594171-19a116a8cf47?auto=format&fit=crop&w=800&q=80",
+        "description": "A slimy, flavorful soup made with fresh okra, often combined with meats or fish – a go-to comfort dish served with swallows like eba or pounded yam.",
+        "ingredients": [
+            "500g fresh okra (chopped or blended for sliminess)",
+            "Assorted meats/fish (beef, goat, stockfish, or dried fish – about 500g)",
+            "1/2 cup palm oil",
+            "1-2 scotch bonnet peppers (blended)",
+            "1 onion (chopped)",
+            "2-3 stock cubes",
+            "Ground crayfish (2-3 tbsp)",
+            "Locust beans (iru, optional)",
+            "Chopped ugu or spinach (1-2 cups)",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Boil meats/fish with onion, stock cubes, and salt until tender; reserve stock.",
+            "Heat palm oil, sauté onion and blended pepper for 5-10 mins.",
+            "Add crayfish, locust beans, and some stock; simmer.",
+            "Stir in chopped/blended okra (don't overcook to keep draw). Cook 5-8 mins on low.",
+            "Add cooked meats/fish and greens. Simmer 5 more mins. Adjust seasoning.",
+            "Serve hot with fufu, eba, or pounded yam."
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Nigerian Pepper Soup",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?auto=format&fit=crop&w=800&q=80",
+        "description": "A hot, spicy, aromatic broth with meat or fish – great as a starter, remedy for colds, or evening warmer.",
+        "ingredients": [
+            "1 kg assorted meat (goat, chicken, or fish)",
+            "Pepper soup spice mix (or make with ehuru, uziza, uda, calabash nutmeg)",
+            "2-3 scotch bonnet peppers (blended)",
+            "1 onion (chopped)",
+            "2-3 stock cubes",
+            "Fresh scent leaves or uziza leaves (optional)",
+            "Salt to taste",
+            "Water or stock"
+        ],
+        "instructions": [
+            "Season meat with onion, stock cubes, and salt; boil until half-cooked.",
+            "Add blended pepper, spice mix, and more water/stock to cover.",
+            "Simmer until meat is tender and broth is flavorful (30-45 mins).",
+            "Add chopped leaves in the last 5 mins. Adjust seasoning (should be very spicy).",
+            "Serve hot in bowls, often with chilled drink."
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Moi Moi (Moin Moin)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=800&q=80",
+        "description": "Steamed bean pudding – a protein-packed side dish, often served with jollof rice, pap, or as a snack.",
+        "ingredients": [
+            "2 cups peeled beans (black-eyed or brown beans)",
+            "1-2 red bell peppers",
+            "1-2 scotch bonnet peppers",
+            "1 large onion",
+            "1/4 cup vegetable oil",
+            "2 stock cubes",
+            "Salt to taste",
+            "Boiled eggs (optional, quartered)",
+            "Corned beef or fish flakes (optional)"
+        ],
+        "instructions": [
+            "Blend soaked/peeled beans with peppers, onion, and some water to a smooth paste.",
+            "Mix in oil, stock cubes, salt, and any add-ins.",
+            "Whip or beat for fluffiness (traditional method).",
+            "Pour into greased molds, ramekins, or wrapped leaves; add egg/fish if using.",
+            "Steam for 30-45 mins until set and firm.",
+            "Cool slightly, unmold, and serve warm or cold."
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Akara (Bean Cakes)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://allnigerianfoods.com/wp-content/uploads/fry-and-turn.jpg",
+        "description": "Crispy, fluffy deep-fried bean fritters – a beloved Nigerian breakfast or snack, often paired with pap (ogi) or eaten on the go.",
+        "ingredients": [
+            "2 cups peeled black-eyed beans",
+            "1-2 red bell peppers",
+            "1-2 scotch bonnet peppers (to taste)",
+            "1 large onion",
+            "Salt to taste",
+            "Vegetable oil for deep frying"
+        ],
+        "instructions": [
+            "Soak peeled beans for a few hours if needed, then blend with peppers, half the onion, and minimal water to a thick, smooth paste.",
+            "Add salt and beat/whip the batter vigorously for 5-10 minutes (traditional method) until light and fluffy.",
+            "Heat oil to medium-hot.",
+            "Scoop batter with wet spoon or hands and drop into oil to form small rounds.",
+            "Fry until golden brown on both sides (flip once), about 3-5 minutes.",
+            "Drain on paper towels and serve hot."
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Efo Riro (Vegetable Stew)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://www.seriouseats.com/thmb/xEK8ZVj7fZwPB7CVbuVecjf2mXg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20230111-Efo-Riro-Maureen-Celestine-hero-74fc1b414bbe444ab351d62ed0d32b9b.jpg",
+        "description": "Rich, spicy Yoruba-style stew loaded with assorted meats, fish, and leafy greens like spinach or ugu – a flavorful everyday soup.",
+        "ingredients": [
+            "500g assorted meats/fish (beef, tripe, ponmo, smoked fish)",
+            "2-3 bunches spinach or ugu leaves (chopped)",
+            "1/2 cup palm oil",
+            "4-5 red bell peppers + 2 scotch bonnet peppers (blended)",
+            "2 large onions",
+            "3-4 tbsp tomato paste",
+            "2-3 stock cubes",
+            "Ground crayfish (2 tbsp)",
+            "Locust beans (iru, optional)",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Boil meats/fish with seasoning until tender; reserve stock.",
+            "Heat palm oil, fry chopped onion, add tomato paste and fry 5-10 mins.",
+            "Add blended peppers, crayfish, iru, stock cubes; cook until oil separates.",
+            "Add cooked meats/fish and some stock; simmer 10 mins.",
+            "Stir in chopped greens, cook 5-7 mins (don't overcook greens). Adjust seasoning.",
+            "Serve with rice, yam, plantain, or swallow."
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Afang Soup",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://allnigerianfoods.com/wp-content/uploads/Afang-soup-Recipe.jpg",
+        "description": "Thick, nutritious Efik soup made with wild vegetable leaves (afang), water leaves, and palm oil base – a Cross River classic full of flavor.",
+        "ingredients": [
+            "200g afang leaves (shredded finely)",
+            "300g water leaves or spinach (chopped)",
+            "Assorted meats/fish (beef, periwinkle, stockfish – about 500g)",
+            "1/2-3/4 cup palm oil",
+            "2-3 tbsp ground crayfish",
+            "1-2 scotch bonnet peppers",
+            "1 onion",
+            "2-3 stock cubes",
+            "Periwinkles (optional)",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Boil meats/stockfish/periwinkles with seasoning until tender.",
+            "Blend peppers and onion; heat palm oil, sauté blended mix briefly.",
+            "Add crayfish, stock cubes, and meat stock; simmer.",
+            "Add chopped water leaves/spinach first, cook 5 mins.",
+            "Stir in shredded afang leaves (don't over-stir to keep texture). Simmer 5-10 mins.",
+            "Add cooked meats. Adjust seasoning.",
+            "Serve with pounded yam, fufu, or garri."
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Banga Soup (Ofe Akwu)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://shopafricausa.com/cdn/shop/articles/banga-soup-with-fresh-fishand-starch-recipe-main-photo_770x500.jpg?v=1588880103",
+        "description": "Rich, nutty palm nut soup from the Niger Delta – aromatic with spices, perfect with starch, pounded yam, or rice.",
+        "ingredients": [
+            "1 kg palm fruit extract (or banga puree)",
+            "Assorted meats/fish (beef, dry fish, fresh catfish – about 1 kg)",
+            "1-2 tbsp Banga spice (or make with atama, oburunbebe stick, etc.)",
+            "1-2 scotch bonnet peppers",
+            "1 onion",
+            "2-3 stock cubes",
+            "Dried bitter leaf (optional for Delta version)",
+            "Periwinkles (optional)",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Extract palm nut juice or use ready puree; boil meats/fish until tender.",
+            "Cook palm nut extract until it thickens and oil rises.",
+            "Add blended pepper, onion, Banga spice, stock cubes; simmer.",
+            "Add cooked meats, periwinkles, and bitter leaf if using.",
+            "Cook on low until flavors meld (20-30 mins). Adjust seasoning.",
+            "Serve hot with starch swallow or white rice."
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Chin Chin",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://sisijemimah.com/wp-content/uploads/2016/04/Nigerian-chnchin.jpg",
+        "description": "Crunchy, sweet fried dough snack – a Nigerian party staple, great for gifting or munching anytime.",
+        "ingredients": [
+            "4 cups all-purpose flour",
+            "1/2 cup sugar",
+            "1/2 cup margarine or butter",
+            "1 tsp baking powder",
+            "1/2 tsp nutmeg",
+            "2 eggs",
+            "1/2 cup milk or water",
+            "Vegetable oil for frying"
+        ],
+        "instructions": [
+            "Mix flour, sugar, baking powder, nutmeg.",
+            "Rub in margarine until crumbly.",
+            "Add beaten eggs and milk/water; knead into firm dough.",
+            "Roll out dough thinly, cut into small strips or squares.",
+            "Heat oil to medium, fry in batches until golden and crunchy (stir to avoid sticking).",
+            "Drain on paper towels. Optional: toss in extra sugar while hot.",
+            "Store in airtight container."
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Yam Porridge (Asaro)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=800&q=80",
+        "description": "A hearty, one-pot yam dish cooked in a spicy palm oil-based pepper sauce – comforting and filling, popular across Nigeria especially in Yoruba homes.",
+        "ingredients": [
+            "1 medium tuber puna yam (peeled and cut into chunks)",
+            "2-3 red bell peppers + 2 scotch bonnet peppers (blended)",
+            "2 large onions",
+            "3-4 tbsp palm oil",
+            "2-3 stock cubes",
+            "Salt to taste",
+            "Assorted proteins (beef, dry fish, or smoked fish – optional)",
+            "Ugu or spinach leaves (chopped, optional for greens version)"
+        ],
+        "instructions": [
+            "Blend peppers and one onion into a puree.",
+            "Heat palm oil, sauté chopped onion until translucent.",
+            "Add blended peppers, stock cubes, salt; fry until oil separates (10-15 mins).",
+            "Add yam chunks and enough water to cover; cook until yam is soft and porridge thickens (20-30 mins). Mash some yam for creaminess.",
+            "Add proteins and greens in the last 5-10 mins. Adjust seasoning.",
+            "Serve hot as a main dish."
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Ofada Rice with Ayamase Sauce",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=800&q=80",
+        "description": "Unpolished local rice served with a rich, spicy green pepper stew (Ayamase) – a Lagos/Southwest delicacy with bold, fermented flavors.",
+        "ingredients": [
+            "2 cups ofada rice (or local unpolished rice)",
+            "4-6 green bell peppers (tatase) + scotch bonnet (blended)",
+            "1 large onion",
+            "1/2 cup palm oil",
+            "Assorted meats (beef, tripe, ponmo)",
+            "Locust beans (iru, 2-3 tbsp)",
+            "2-3 stock cubes",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Boil meats until tender; reserve stock.",
+            "Heat palm oil until it smokes slightly (bleached oil method), add iru and blended peppers/onion; fry carefully to avoid burning.",
+            "Add cooked meats, stock cubes, salt; simmer until sauce thickens and oil floats.",
+            "Cook ofada rice separately (parboil if needed, then boil until soft).",
+            "Serve rice topped with Ayamase sauce and boiled eggs if desired."
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Ogbono Soup",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1627308594171-19a116a8cf47?auto=format&fit=crop&w=800&q=80",
+        "description": "Drawy, nutty soup made from ground ogbono seeds – thick and hearty, a favorite swallow companion in many Nigerian homes.",
+        "ingredients": [
+            "1-1.5 cups ground ogbono seeds",
+            "1/2-1 cup palm oil",
+            "Assorted meats/fish (beef, stockfish, dry fish)",
+            "2-3 cups chopped ugu or spinach",
+            "2-3 tbsp ground crayfish",
+            "1-2 scotch bonnet peppers",
+            "1 onion",
+            "2-3 stock cubes",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Boil meats/fish with seasoning until tender; reserve stock.",
+            "Heat palm oil, sauté chopped onion and blended pepper briefly.",
+            "Add crayfish, stock cubes, meat stock; bring to simmer.",
+            "Mix ogbono with a little water/oil to form paste, scoop into soup in lumps; cook 10-15 mins without much stirring to draw.",
+            "Add greens and meats; simmer 5 mins. Adjust seasoning.",
+            "Serve with fufu, eba, or pounded yam."
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Edikaikong Soup",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1627308594171-19a116a8cf47?auto=format&fit=crop&w=800&q=80",
+        "description": "Nutritious Calabar vegetable soup loaded with ugu and water leaves – rich in vitamins, often with assorted seafood and meats.",
+        "ingredients": [
+            "Equal parts ugu (pumpkin) and water leaves (or spinach substitute, chopped finely)",
+            "Assorted meats/fish (beef, dry fish, periwinkle, prawns)",
+            "1/2-3/4 cup palm oil",
+            "2-3 tbsp ground crayfish",
+            "1-2 scotch bonnet peppers",
+            "1 onion",
+            "2-3 stock cubes",
+            "Salt to taste better"
+        ],
+        "instructions": [
+            "Boil meats/fish/periwinkles until tender.",
+            "Heat palm oil, sauté blended pepper and onion.",
+            "Add crayfish, stock cubes, meat stock; simmer.",
+            "Add water leaves first, cook 5 mins; then ugu leaves, simmer 5-10 mins (don't overcook to keep vibrant green).",
+            "Add cooked meats/seafood. Adjust seasoning.",
+            "Serve with pounded yam or fufu."
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Nigerian Fried Rice",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=800&q=80",
+        "description": "Colorful, flavorful rice stir-fried with veggies, proteins, and spices – a party and everyday favorite.",
+        "ingredients": [
+            "3 cups cooked long-grain rice (cooled)",
+            "Mixed vegetables (carrots, peas, green beans, sweet corn)",
+            "Assorted proteins (chicken, liver, shrimp)",
+            "2-3 tbsp vegetable oil",
+            "1 onion (chopped)",
+            "2-3 stock cubes",
+            "Curry powder, thyme, white pepper",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Season and cook proteins; chop into bits.",
+            "Heat oil, sauté onion, add veggies and stir-fry 5 mins.",
+            "Add proteins, spices, stock cubes; mix well.",
+            "Add cooled rice gradually, stir-fry on high heat to avoid sogginess (5-10 mins).",
+            "Serve hot with fried plantain or coleslaw."
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Fried Plantain (Dodo)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=800&q=80",
+        "description": "Sweet, caramelized ripe plantain slices fried to golden perfection – a classic side for rice, stew, or beans.",
+        "ingredients": [
+            "4-6 ripe plantains (yellow with black spots)",
+            "Vegetable oil for frying",
+            "Salt (optional, pinch)"
+        ],
+        "instructions": [
+            "Peel and slice plantains diagonally or round.",
+            "Heat oil to medium-hot.",
+            "Fry in batches until golden brown on both sides (flip once).",
+            "Drain on paper towels. Sprinkle salt if desired.",
+            "Serve warm as a side or snack."
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Ewedu Soup (Jute Leaves Soup)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1627308594171-19a116a8cf47?auto=format&fit=crop&w=800&q=80",
+        "description": "Light, drawy green soup from jute leaves – Yoruba classic, often paired with stew and swallow.",
+        "ingredients": [
+            "Bunches fresh ewedu leaves (or frozen)",
+            "1/2 cup palm oil or vegetable oil",
+            "Assorted meats/fish (optional)",
+            "Ground crayfish (1-2 tbsp)",
+            "Locust beans (iru, optional)",
+            "1-2 stock cubes",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Pick and wash ewedu leaves thoroughly.",
+            "Boil meats if using; reserve stock.",
+            "Blend or pound ewedu lightly (traditional) or chop finely.",
+            "Boil water/stock with crayfish, iru, stock cubes; add ewedu, cook 5-8 mins on low (don't overcook).",
+            "Add oil and meats. Adjust seasoning.",
+            "Serve with amala, eba, or stew."
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Masa (Rice Cakes)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1558327768560-6b0e3c499306?auto=format&fit=crop&w=800&q=80",
+        "description": "Soft, spongy fermented rice pancakes – Northern Nigerian breakfast/snack, often with spicy stew or soup.",
+        "ingredients": [
+            "2 cups tuwo rice or short-grain rice (soaked overnight)",
+            "1 tsp yeast",
+            "1/2 tsp baking powder",
+            "Sugar to taste",
+            "Salt to taste",
+            "Vegetable oil for frying"
+        ],
+        "instructions": [
+            "Soak rice overnight, drain, blend with minimal water to thick batter.",
+            "Add yeast, sugar, salt; ferment 6-12 hours until bubbly.",
+            "Stir in baking powder.",
+            "Heat masa pan (or non-stick with wells), oil lightly, pour batter into holes.",
+            "Cook until bubbles form and bottom browns; flip if needed.",
+            "Serve hot with pepper soup, stew, or honey."
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Tuwon Shinkafa (Rice Swallow)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1511688878353-3a2f5be94cd7?auto=format&fit=crop&w=800&q=80",
+        "description": "Soft, smooth swallow made from cooked rice – Northern favorite, pairs well with soups like miyan kuka or ogbono.",
+        "ingredients": [
+            "2 cups tuwo rice (or short-grain rice)",
+            "Water as needed"
+        ],
+        "instructions": [
+            "Wash rice, boil in water until very soft and mushy (extra water).",
+            "Mash/pound with wooden spoon or blender until smooth and stretchy.",
+            "Mold into balls or serve in lumps.",
+            "Serve hot with any soup."
+        ]
+    },
+    {
+        "id": 25,
+        "title": "White Rice & Stew",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&w=800&q=80",
+        "description": "Simple boiled white rice with rich tomato-pepper stew – everyday comfort food, versatile with proteins and sides.",
+        "ingredients": [
+            "3 cups long-grain rice",
+            "For stew: 4-5 tomatoes + peppers + onions (blended), 1/2 cup palm/veg oil, tomato paste, stock cubes, assorted meats/fish",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Cook rice in salted water until tender; set aside.",
+            "Fry tomato paste in oil, add blended puree, spices; cook until oil floats.",
+            "Add cooked meats/fish, simmer.",
+            "Serve stew over rice with dodo or salad."
+        ]
     }
 ]
