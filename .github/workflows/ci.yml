@@ -18,6 +18,7 @@ jobs:
         uses: anishathalye/proof-html@v2
         with:
           directory: .
+          disable_external: true
 
       - name: Check project structure
         run: |
