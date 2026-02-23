@@ -989,5 +989,29 @@
             "Shape into nests on tray; add candies.",
             "Chill until set."
         ]
+    },
+    {
+        "id": 46,
+        "title": "Kunun Aya (Tiger Nut Drink)",
+        "contributor": "ASAMASANAWA",
+        "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=crop&w=800&q=80",
+        "description": "A refreshing, naturally sweet traditional Hausa drink made from tiger nuts, dates, and coconut. Perfect for cooling down on a hot day.",
+        "ingredients": [
+            "2 cups dry tiger nuts (aya)",
+            "1/2 cup dry dates (dabino), pitted",
+            "1/2 coconut (cracked, meat chopped)",
+            "1 small piece of fresh ginger",
+            "1 tsp cloves (kanumfari)",
+            "Water (for blending)"
+        ],
+        "instructions": [
+            "Wash and soak the tiger nuts overnight in plenty of water to soften them.",
+            "Wash and soak the pitted dates until they are soft.",
+            "Combine the soaked tiger nuts, dates, coconut pieces, ginger, and cloves in a blender.",
+            "Add enough water to cover the ingredients and blend until completely smooth.",
+            "Strain the mixture through a fine muslin cloth (chiffon cloth) to extract the milk.",
+            "Squeeze the cloth tightly to get all the juices out, then discard the chaff.",
+            "Chill the extracted milk in the refrigerator and serve very cold."
+        ]
     }
 ] 
