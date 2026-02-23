@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalBody = document.getElementById('modal-body');
     const closeModal = document.querySelector('.close-modal');
     const addRecipeBtn = document.getElementById('add-recipe-btn');
+    const addRecipeModal = document.getElementById('add-recipe-modal');
+    const closeAddModal = document.querySelector('.close-add-modal');
 
     let allRecipes = []; // Store fetched recipes for filtering
 
@@ -153,10 +155,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add Recipe Placeholder
     if (addRecipeBtn) {
-        addRecipeBtn.addEventListener('click', () => {
-            alert('This feature would open a form to contribute to recipes.json!');
-        });
-    }
+    addRecipeBtn.addEventListener('click', () => {
+        addRecipeModal.style.display = 'block';
+    });
+}
+
+// Close the Add Recipe modal
+    if (closeAddModal) {
+    closeAddModal.addEventListener('click', () => {
+        addRecipeModal.style.display = 'none';
+    });
+}
 
     // Initial load
     loadRecipes();
