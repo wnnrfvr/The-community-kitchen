@@ -52,24 +52,59 @@ document.addEventListener('DOMContentLoaded', () => {
             // Stagger animation delay via inline style for dynamic lists
             card.style.animationDelay = `${index * 0.1}s`;
 
+            const localRecipes =
+            JSON.parse(localStorage.getItem("communityRecipes")) || [];
+
+            const isUserRecipe = localRecipes.some(r => r.id === recipe.id);
+
+            // card.innerHTML = `
+            //     <div class="card-image-wrapper">
+            //         <img src="${recipe.image || 'https://via.placeholder.com/400x300?text=No+Image'}" alt="${recipe.title}" class="recipe-image">
+                    
+            //         <span class="favorite-btn" data-id="${recipe.id}"><i class="fa-regular fa-heart" style="color: red;"></i></span>
+
+                    
+                    
+            //         <span class="contributor-badge">${recipe.contributor}</span>
+            //     </div>
+
+            //     <div class="recipe-content">
+            //         <h3 class="recipe-title">${recipe.title}</h3>
+            //         <p class="recipe-description">${recipe.description}</p>
+                    
+            //         <div class="recipe-meta">
+            //             <span class="recipe-ingredients-count">${recipe.ingredients.length} Ingredients</span>
+            //             <span class="btn-view">View Recipe</span>
+            //         </div>
+            //     </div>
+            // `;
+
 
             card.innerHTML = `
                 <div class="card-image-wrapper">
-                    <img src="${recipe.image || 'https://via.placeholder.com/400x300?text=No+Image'}" alt="${recipe.title}" class="recipe-image">
-                    
-                    <span class="favorite-btn" data-id="${recipe.id}"><i class="fa-regular fa-heart" style="color: red;"></i></span>
+                <img src="${recipe.image || 'https://via.placeholder.com/400x300?text=No+Image'}" alt="${recipe.title}" class="recipe-image">
 
-                    <span class="contributor-badge">${recipe.contributor}</span>
+                <span class="favorite-btn" data-id="${recipe.id}">
+                <i class="fa-regular fa-heart" style="color:red;"></i>
+                </span>
+
+                ${isUserRecipe ? `
+                <span class="delete-btn" data-id="${recipe.id}">
+                <i class="fa-solid fa-trash"></i>
+                </span>
+                ` : ``}
+
+                <span class="contributor-badge">${recipe.contributor}</span>
                 </div>
 
                 <div class="recipe-content">
-                    <h3 class="recipe-title">${recipe.title}</h3>
-                    <p class="recipe-description">${recipe.description}</p>
-                    
-                    <div class="recipe-meta">
-                        <span class="recipe-ingredients-count">${recipe.ingredients.length} Ingredients</span>
-                        <span class="btn-view">View Recipe</span>
-                    </div>
+                <h3 class="recipe-title">${recipe.title}</h3>
+                <p class="recipe-description">${recipe.description}</p>
+
+                <div class="recipe-meta">
+                <span class="recipe-ingredients-count">${recipe.ingredients.length} Ingredients</span>
+                <span class="btn-view">View Recipe</span>
+                </div>
                 </div>
             `;
 
@@ -79,6 +114,15 @@ document.addEventListener('DOMContentLoaded', () => {
             recipeContainer.appendChild(card);
 
             const favBtn = card.querySelector('.favorite-btn');
+
+            const deleteBtn = card.querySelector(".delete-btn");
+
+            if (deleteBtn) {
+                deleteBtn.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    deleteRecipe(recipe.id);
+                });
+            }
 
             const favorites = getFavorites();
 
@@ -302,4 +346,24 @@ function toggleFavorite(id, button) {
     }
 
     saveFavorites(favorites);
+}
+
+
+function deleteRecipe(id) {
+
+    const confirmDelete = confirm("Delete this recipe?");
+
+    if (!confirmDelete) return;
+
+    let userRecipes =
+    JSON.parse(localStorage.getItem("communityRecipes")) || [];
+
+    userRecipes = userRecipes.filter(recipe => recipe.id !== id);
+
+    localStorage.setItem(
+    "communityRecipes",
+    JSON.stringify(userRecipes)
+    );
+
+    location.reload();
 }
