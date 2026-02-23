@@ -18,8 +18,7 @@ jobs:
         uses: anishathalye/proof-html@v2
         with:
           directory: .
-          # Disable external link checking - prevents network-dependent failures
-          disable-external: true
+          disable_external: true
 
       - name: Check project structure
         run: |
