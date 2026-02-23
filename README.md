@@ -30,9 +30,9 @@ The goal of this project is to create a simple, accessible, and beautiful web in
 | Umar Khalil Ibrahim | CST/20/SWE/00516 | [@kubbest](https://github.com/kubbest) | Code and documentation |
 | Abubakar Mansir | CST/22/SWE/00926 | [@Abubakarmansir](https://github.com/Abubakarmansir) | Code and documentation |
 | Yakubu Abdulhameed Ugbede | CST/21/SWE/00657 | [@Graveetee](https://github.com/Graveetee) | Code and documentation |
-| IDRIS ILIYASU | CST/20/SWE/00496 | - | Code and documentation |
+| IDRIS ILIYASU | CST/20/SWE/00496 | idrisilyas343| Code and documentation |
 | Salma Iliyas | CST/21/SWE/00686 | [@salmailyas18](https://github.com/salmailyas18) | Code and documentation |
-| Salim Abdulmumin Sadiq | CST/21/SWE/00676 | - | Code and documentation |
+| Salim Abdulmumin Sadiq | CST/21/SWE/00676 | saleemsadiq| Code and documentation |
 | Usman Abdullahi Ibrahim | CST/21/SWE/00667 | [@uaithegreat001](https://github.com/uaithegreat001) | Code and documentation |
 | Muhammad Iliyasu Sarki | CST/20/SWE/00497 | [@Msarkii](https://github.com/Msarkii) | Code and documentation |
 
