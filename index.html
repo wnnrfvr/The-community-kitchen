@@ -8,8 +8,13 @@
     <title>Community Cookbook</title>
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- TEST FIXING CI CHECKS -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+
+
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1046/1046784.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -54,25 +59,6 @@
             </section>
         </header>
 
-                                <!-- ADD RECIPE FORM BEGINS HERE -->
-    <div id="recipe-form-modal" class="modal">
-        <div class="modal-content">
-            <h2>Add a Recipe</h2>
-
-            <input id="recipe-title" placeholder="Recipe title">
-
-            <input id="recipe-image" placeholder="Image URL">
-
-            <textarea id="recipe-ingredients" placeholder="Ingredients (comma separated)"></textarea>
-
-            <textarea id="recipe-steps" placeholder="Preparation steps"></textarea>
-
-            <button onclick="submitRecipe()">Submit Recipe</button>
-            <button onclick="closeRecipeForm()">Cancel</button>
-        </div>
-    </div>
-                        <!-- ADD RECIPE FORM ENDS HERE -->
-
         <main>
             <div id="recipe-container">
                 <!-- Recipes will be loaded here dynamically -->
@@ -89,8 +75,6 @@
             </div>
         </div>
     </div>
-
-
 
     <!-- Scripts -->
     <script src="src/script.js"></script>
