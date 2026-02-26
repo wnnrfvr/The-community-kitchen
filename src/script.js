@@ -27,6 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function displayRecipes(recipes) {
         recipeContainer.innerHTML = '';
+    
+    // Update recipe counter
+    updateRecipeCounter(recipes.length, allRecipes.length);
 
         if (recipes.length === 0) {
             recipeContainer.innerHTML = `
@@ -151,11 +154,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Add Recipe Placeholder
+       // Add Recipe Placeholder
     if (addRecipeBtn) {
         addRecipeBtn.addEventListener('click', () => {
             alert('This feature would open a form to contribute to recipes.json!');
         });
+    }
+
+    // Update recipe counter display
+    function updateRecipeCounter(current, total) {
+        const counterElement = document.getElementById('recipe-count');
+        const counterContainer = document.getElementById('recipe-counter');
+        
+        if (counterElement && counterContainer) {
+            if (current === total) {
+                counterContainer.innerHTML = `Showing <span id="recipe-count">${total}</span> recipes`;
+            } else {
+                counterContainer.innerHTML = `Showing <span id="recipe-count">${current}</span> of ${total} recipes`;
+            }
+        }
     }
 
     // Initial load
