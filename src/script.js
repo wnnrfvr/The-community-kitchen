@@ -17,7 +17,16 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) {
                 throw new Error('Failed to load recipes');
             }
-            allRecipes = await response.json();
+            // allRecipes = await response.json();
+            // displayRecipes(allRecipes);
+
+            const serverRecipes = await response.json();
+
+            const localRecipes =
+                JSON.parse(localStorage.getItem("communityRecipes")) || [];
+
+            allRecipes = [...serverRecipes, ...localRecipes];
+
             displayRecipes(allRecipes);
         } catch (error) {
             console.error('Error:', error);
@@ -43,11 +52,16 @@ document.addEventListener('DOMContentLoaded', () => {
             // Stagger animation delay via inline style for dynamic lists
             card.style.animationDelay = `${index * 0.1}s`;
 
+
             card.innerHTML = `
                 <div class="card-image-wrapper">
-                    <img src="${recipe.image || 'https://via.placeholder.com/400x300?text=No+Image'}" alt="${recipe.title}" class="recipe-image" loading="lazy">
+                    <img src="${recipe.image || 'https://via.placeholder.com/400x300?text=No+Image'}" alt="${recipe.title}" class="recipe-image">
+                    
+                    <span class="favorite-btn" data-id="${recipe.id}"><i class="fa-regular fa-heart" style="color: red;"></i></span>
+
                     <span class="contributor-badge">${recipe.contributor}</span>
                 </div>
+
                 <div class="recipe-content">
                     <h3 class="recipe-title">${recipe.title}</h3>
                     <p class="recipe-description">${recipe.description}</p>
@@ -63,6 +77,20 @@ document.addEventListener('DOMContentLoaded', () => {
             card.addEventListener('click', () => openModal(recipe));
 
             recipeContainer.appendChild(card);
+
+            const favBtn = card.querySelector('.favorite-btn');
+
+            const favorites = getFavorites();
+
+            if (favorites.includes(recipe.id)) {
+                favBtn.innerHTML = `<i class="fa-solid fa-heart"></i>`;
+                favBtn.style.color = "red";
+            }
+
+            favBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                toggleFavorite(recipe.id, favBtn);
+            });
         });
     }
 
@@ -98,6 +126,95 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.style.display = 'block';
         document.body.style.overflow = 'hidden'; // Prevent background scrolling
     }
+
+    const openRecipeForm = () => {
+
+        modalBody.innerHTML = `
+            <div class="modal-body-content">
+                <h2 class="modal-title">Add Your Recipe</h2>
+
+                <div class="form-group">
+                    <label>Recipe Title</label>
+                    <input type="text" id="new-title" placeholder="E.g. Homemade Pizza">
+                </div>
+
+                <div class="form-group">
+                    <label>Image URL</label>
+                    <input type="text" id="new-image" placeholder="Paste an image link">
+                </div>
+
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea id="new-description" placeholder="Short description"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Ingredients (comma separated)</label>
+                    <textarea id="new-ingredients"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Instructions (comma separated steps)</label>
+                    <textarea id="new-instructions"></textarea>
+                </div>
+
+                <button id="submit-recipe" class="btn-primary">Submit Recipe</button>
+            </div>
+        `;
+
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+
+        document.getElementById("submit-recipe").addEventListener("click", saveNewRecipe);
+    }
+
+
+    const saveNewRecipe = () => {
+
+        const title = document.getElementById("new-title").value;
+        const image = document.getElementById("new-image").value;
+        const description = document.getElementById("new-description").value;
+
+        const ingredients = document
+            .getElementById("new-ingredients")
+            .value
+            .split(",");
+
+        const instructions = document
+            .getElementById("new-instructions")
+            .value
+            .split(",");
+
+        if (!title || !description) {
+            alert("Please fill the required fields");
+            return;
+        }
+
+        const newRecipe = {
+            id: Date.now(),
+            title,
+            contributor: "Community User",
+            image,
+            description,
+            ingredients,
+            instructions
+        };
+
+        let userRecipes =
+            JSON.parse(localStorage.getItem("communityRecipes")) || [];
+
+        userRecipes.push(newRecipe);
+
+        localStorage.setItem(
+            "communityRecipes",
+            JSON.stringify(userRecipes)
+        );
+
+        closeModalFunc();
+
+        loadRecipes();
+    }
+    
 
     function closeModalFunc() {
         modal.style.display = 'none';
@@ -154,10 +271,35 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add Recipe Placeholder
     if (addRecipeBtn) {
         addRecipeBtn.addEventListener('click', () => {
-            alert('This feature would open a form to contribute to recipes.json!');
+            openRecipeForm();
         });
     }
 
     // Initial load
     loadRecipes();
 });
+
+
+function getFavorites() {
+    return JSON.parse(localStorage.getItem('favorites')) || [];
+}
+
+function saveFavorites(favorites) {
+    localStorage.setItem('favorites', JSON.stringify(favorites));
+}
+
+function toggleFavorite(id, button) {
+    let favorites = getFavorites();
+
+    if (favorites.includes(id)) {
+        favorites = favorites.filter(fav => fav !== id);
+        button.innerHTML = `<i class="fa-regular fa-heart"></i>`;
+        button.style.color = "red";
+    } else {
+        favorites.push(id);
+        button.innerHTML = `<i class="fa-solid fa-heart"></i>`;
+        button.style.color = "red";
+    }
+
+    saveFavorites(favorites);
+}
