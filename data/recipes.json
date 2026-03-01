@@ -989,5 +989,32 @@
             "Shape into nests on tray; add candies.",
             "Chill until set."
         ]
+    },
+    {
+        "id": 46,
+        "title": "Miyan Taushe (Hausa Pumpkin Soup)",
+        "contributor": "Salma's Nigerian Kitchen",
+        "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+        "description": "A celebrated Northern Nigerian pumpkin soup. It is savory, slightly sweet, and nutty, traditionally served with Masa or Tuwon Shinkafa.",
+        "ingredients": [
+            "1/2 medium-sized ripe Pumpkin (peeled and cubed)",
+            "500g assorted meat (Beef or Shaki)",
+            "1 cup roasted groundnuts (blended into a paste)",
+            "1/2 cup palm oil",
+            "3 large bell peppers and 2 scotch bonnets (blended)",
+            "1 onion (chopped)",
+            "2 tbsp ground crayfish",
+            "1 bunch of Yakwa leaves (sorrel) or Spinach",
+            "2 stock cubes",
+            "Salt to taste"
+        ],
+        "instructions": [
+            "Boil and mash pumpkin cubes into a smooth paste.",
+            "Cook meats with seasoning until tender; reserve stock.",
+            "Fry blended peppers in palm oil, then add stock, pumpkin paste, and groundnut paste.",
+            "Simmer for 10 minutes, then add meats and crayfish.",
+            "Stir in chopped leaves and simmer for 5 more minutes.",
+            "Serve hot with Masa or Tuwon Shinkafa."
+        ]
     }
-] 
+]
